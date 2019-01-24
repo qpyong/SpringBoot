@@ -1,2 +1,10 @@
+#Spring Boot+MySQL+JPA
+#ref:https://spring.io/guides/gs/accessing-data-mysql/
 spring:
+  jpa:
+    hibernate:
+      ddl-auto:create
   datasource:
+    url:jdbc:mysql://localhost:3306/db_example
+    username:springuser
+    password:ThePassword
