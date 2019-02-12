@@ -3,8 +3,32 @@
 spring:
   jpa:
     hibernate:
-      ddl-auto:create
+      ddl-auto: create
+    database: mysql
   datasource:
-    url:jdbc:mysql://localhost:3306/db_example
-    username:springuser
-    password:ThePassword
+    url: jdbc:mysql://106.75.143.161:3306/demo_test
+    data-username: root
+    data-password: mysql.123
+  session:
+    store-type: hash_map
+app:
+  department:
+    total: 2
+    name: 'G端事业部'
+
+single:
+  property:
+    value: 属性也可以直接获取
+
+environments:
+  dev:
+    name: Developer Setup
+    url: http://dev.bar.com
+  prod:
+    name: My Cool App
+    url: http://foo.bar.com
+
+
+logging:
+  path: d://
+  level: debug
