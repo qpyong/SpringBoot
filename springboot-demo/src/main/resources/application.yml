@@ -3,14 +3,18 @@
 spring:
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: none
     database: mysql
   datasource:
-    url: jdbc:mysql://106.75.143.161:3306/demo_test
-    data-username: root
-    data-password: mysql.123
+    url: jdbc:mysql://106.75.143.161:3306/qpydemos
+    #这里使用的是username/password，而非data-user/data-password
+    username: root
+    password: mysql.123
   session:
     store-type: hash_map
+  freemarker:
+    #要支持freemarker，必须设置RequestContext属性的简称
+    request-context-attribute: request
 app:
   department:
     total: 2
@@ -32,3 +36,4 @@ environments:
 logging:
   path: d://
   level: debug
+

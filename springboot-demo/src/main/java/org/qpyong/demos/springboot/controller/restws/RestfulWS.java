@@ -17,6 +17,7 @@ public class RestfulWS {
          * 使用RestTemplate来请求restful-webservice。
          */
         RestTemplate restTemplate = new RestTemplate();
+        // 将返回结果转化为Quote
         return restTemplate.getForObject(URI.create("http://gturnquist-quoters.cfapps.io/api/random"), Quote.class);
     }
 

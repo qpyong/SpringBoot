@@ -6,6 +6,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Value {
     private Long id;
+    /**
+     * 用来映射返回的json属性quote和实体属性
+     */
     @JsonProperty("quote")
     private String q;
 

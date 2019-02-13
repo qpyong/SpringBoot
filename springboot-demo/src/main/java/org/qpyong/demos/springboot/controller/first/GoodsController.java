@@ -14,6 +14,9 @@ import org.springframework.web.bind.annotation.RestController;
 import java.math.BigDecimal;
 import java.util.Calendar;
 
+/**
+ * <code>@RestController</code>等同于<code>@Controller</code>和<code>@ResponseBody</code>（用于方法）联合使用.
+ */
 @RestController
 public class GoodsController {
     @Autowired
@@ -25,6 +28,7 @@ public class GoodsController {
 
     @Autowired
     Department department;
+
     @RequestMapping("/goods/{id}")
     public Goods getGoods(@PathVariable String id) {
         Goods goods = new Goods();
@@ -37,9 +41,9 @@ public class GoodsController {
         );
         goods.setProduceDate(cal.getTime());
         System.out.println(evn.getProperty("app.department.name"));
-        System.out.println(department==null);
-        System.out.println(environment==null);
-        System.out.println(evn.getProperty("single.property.value") );
+        System.out.println(department == null);
+        System.out.println(environment == null);
+        System.out.println(evn.getProperty("single.property.value"));
         return goods;
     }
 }
