@@ -15,6 +15,8 @@ spring:
   freemarker:
     #要支持freemarker，必须设置RequestContext属性的简称
     request-context-attribute: request
+    #默认后缀为.ftl
+    suffix: .html
 app:
   department:
     total: 2
