@@ -1,9 +1,12 @@
 #Spring Boot+MySQL+JPA
 #ref:https://spring.io/guides/gs/accessing-data-mysql/
 spring:
+  devtools:
+    restart:
+      enabled: true
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: update
     database: mysql
   datasource:
     url: jdbc:mysql://106.75.143.161:3306/qpydemos
@@ -38,4 +41,4 @@ environments:
 logging:
   path: d://
   level: debug
-
+debug: true
