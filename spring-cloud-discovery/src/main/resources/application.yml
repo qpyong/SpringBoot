@@ -1,28 +1,28 @@
-#ÕâÀïÃ»ÓĞÖ¸¶¨profilesµÄ²¿·ÖÎª¹«¹²²¿·Ö
+#è¿™é‡Œæ²¡æœ‰æŒ‡å®šprofilesçš„éƒ¨åˆ†ä¸ºå…¬å…±éƒ¨åˆ†
 spring:
   application:
     name: discovery
 ---
 spring:
-  #Ö¸¶¨µ±Ç°ÅäÖÃprofiles=server1
+  #æŒ‡å®šå½“å‰é…ç½®profiles=server1
   profiles: server1
 server:
-  #µ±profiles=server1Ê±£¬Ó¦ÓÃµÄ¶Ë¿ÚÎª8761
+  #å½“profiles=server1æ—¶ï¼Œåº”ç”¨çš„ç«¯å£ä¸º8761
   port: 8761
 eureka:
   client:
     service-url:
-      #µ±Ç°Ó¦ÓÃÏò¶Ë¿ÚÎª8762µÄ·şÎñ½øĞĞ×¢²á
+      #å½“å‰åº”ç”¨å‘ç«¯å£ä¸º8762çš„æœåŠ¡è¿›è¡Œæ³¨å†Œ
       defaultZone: http://localhost:8762/eureka
 ---
 spring:
-  #Ö¸¶¨µ±Ç°ÅäÖÃprofiles=server2
+  #æŒ‡å®šå½“å‰é…ç½®profiles=server2
   profiles: server2
 server:
-  #µ±profiles=server1Ê±£¬Ó¦ÓÃµÄ¶Ë¿ÚÎª8762
+  #å½“profiles=server1æ—¶ï¼Œåº”ç”¨çš„ç«¯å£ä¸º8762
   port: 8762
 eureka:
   client:
     service-url:
-      #µ±Ç°Ó¦ÓÃÏò¶Ë¿ÚÎª8761µÄ·şÎñ½øĞĞ×¢²á
+      #å½“å‰åº”ç”¨å‘ç«¯å£ä¸º8761çš„æœåŠ¡è¿›è¡Œæ³¨å†Œ
       defaultZone: http://localhost:8761/eureka
