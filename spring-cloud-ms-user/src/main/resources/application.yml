@@ -3,7 +3,7 @@ server:
 eureka:
   client:
     service-url:
-      #这里建议要配置相应的eureka server对应的服务地址
+      #杩欓噷寤鸿瑕侀厤缃浉搴旂殑eureka server瀵瑰簲鐨勬湇鍔″湴鍧�
       defaultZone: http://localhost:8761/eureka,http://localhost:8762/eureka
 spring:
   application:
