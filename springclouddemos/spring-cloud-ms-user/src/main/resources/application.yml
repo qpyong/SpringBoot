@@ -1,8 +1,4 @@
-server:
-  port: 8771
 spring:
-  application:
-    name: ms-user
   datasource:
     username: root
     password: mysql.123
@@ -10,20 +6,78 @@ spring:
   jpa:
     database: mysql
 ---
+#当启用server{x}时，连接的是单体注册中心。用于本地开发测试，最多可启动3台
+server:
+  port: 8780
 spring:
-  profiles:server0
+  profiles: server0
+  application:
+    name: ms-user-${server.port}
 eureka:
   client:
     service-url:
       #这里建议要配置相应的eureka server对应的服务地址
       defaultZone: http://admin:admin@localhost:8760/eureka
 ---
+server:
+  port: 8781
+spring:
+  profiles: server1
+  application:
+    name: ms-user-${server.port}
+eureka:
+  client:
+    service-url:
+      #这里建议要配置相应的eureka server对应的服务地址
+      defaultZone: http://admin:admin@localhost:8760/eureka
+---
+server:
+  port: 8782
+spring:
+  profiles: server2
+  application:
+    name: ms-user-${server.port}
+eureka:
+  client:
+    service-url:
+      #这里建议要配置相应的eureka server对应的服务地址
+      defaultZone: http://admin:admin@localhost:8760/eureka
+---
+#当启用servers{x}时，连接的是单体注册中心。用于本地开发测试，最多可启动3台
 eureka:
   client:
     service-url:
       #这里建议要配置相应的eureka server对应的服务地址
       defaultZone: http://admin:admin@localhost:8761/eureka,http://admin:admin@localhost:8762/eureka
+server:
+  port: 8785
 spring:
-  profiles: server1
+  profiles: servers1
+  application:
+    name: ms-user-${server.port}
+---
+eureka:
+  client:
+    service-url:
+      #这里建议要配置相应的eureka server对应的服务地址
+      defaultZone: http://admin:admin@localhost:8761/eureka,http://admin:admin@localhost:8762/eureka
+server:
+  port: 8786
+spring:
+  profiles: servers6
+  application:
+    name: ms-user-${server.port}
+---
+eureka:
+  client:
+    service-url:
+      #这里建议要配置相应的eureka server对应的服务地址
+      defaultZone: http://admin:admin@localhost:8761/eureka,http://admin:admin@localhost:8762/eureka
+server:
+  port: 8787
+spring:
+  profiles: servers7
+  application:
+    name: ms-user-${server.port}
 
 

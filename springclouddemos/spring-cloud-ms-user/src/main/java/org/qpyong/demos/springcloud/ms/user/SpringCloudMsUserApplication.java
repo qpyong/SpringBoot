@@ -8,9 +8,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
@@ -19,11 +22,11 @@ import java.util.List;
 @RequestMapping("/user")
 public class SpringCloudMsUserApplication {
 
-    @Autowired
-    DiscoveryClient discoveryClient;
 
     @Autowired
     private UserRepository userRepository;
+    @Autowired
+    private RestTemplate restTemplate;
 
     @GetMapping(path = "/list")
     public List<User> getAllUsers() {
@@ -31,14 +34,26 @@ public class SpringCloudMsUserApplication {
     }
 
 
-    @GetMapping(path = "/watch")
-    public List<Movie> hasWatched() {
-        List<ServiceInstance> serviceInstances = discoveryClient.getInstances("ms-movie");
+    /**
+     * 列出可观看的电影
+     *
+     * @return
+     */
+    @GetMapping(path = "/movies")
+    public List<Movie> listMovies() {
+        restTemplate.getForObject("http://ms-movie/movie/list",)
         return null;
     }
 
     public static void main(String[] args) {
         SpringApplication.run(SpringCloudMsUserApplication.class, args);
+    }
+
+
+    @Bean
+    @LoadBalanced
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
     }
 
 }

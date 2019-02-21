@@ -12,7 +12,7 @@ security:
 ---
 #一台server
 spring:
-  profiles:server
+  profiles: server
 server:
   port: 8760
 eureka:
@@ -21,6 +21,8 @@ eureka:
       #当前应用向端口为8760的服务进行注册
       defaultZone: http://localhost:8760/eureka
     register-with-eureka: false
+  server:
+    enable-self-preservation: false
 ---
 #以下为两台（server1&server2）互相注册的高可用部署
 spring:
