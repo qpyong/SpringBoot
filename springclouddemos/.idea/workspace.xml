@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcbe7f85-efcf-451a-8102-08724f0d74ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../spring-cloud-discovery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-discovery/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud-discovery/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-discovery/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud-ms-movie/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-ms-movie/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud-ms-movie/src/main/java/org/qpyong/demos/springcloud/ms/movie/SpringCloudMsMovieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-ms-movie/src/main/java/org/qpyong/demos/springcloud/ms/movie/SpringCloudMsMovieApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud-ms-movie/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-ms-movie/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud-ms-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-ms-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud-ms-user/src/main/java/org/qpyong/demos/springcloud/ms/user/SpringCloudMsUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-ms-user/src/main/java/org/qpyong/demos/springcloud/ms/user/SpringCloudMsUserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud-ms-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-ms-user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-cloud-ms-movie/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            <state relative-caret-position="112">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -237,32 +230,6 @@
               <item name="springclouddemos" type="b2602c69:ProjectViewProjectNode" />
               <item name="springclouddemos" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springclouddemos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springclouddemos" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-ms-movie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springclouddemos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springclouddemos" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-ms-movie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springclouddemos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springclouddemos" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-ms-movie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springclouddemos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springclouddemos" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-ms-movie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -279,7 +246,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550732666413" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550733135007" />
     <property name="last_opened_file_path" value="C:/Program Files/TortoiseSVN/bin/ConnectVPN.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -361,16 +328,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550712202848</updated>
-      <workItem from="1550712209204" duration="6102000" />
+      <workItem from="1550712209204" duration="6741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6102000" />
+    <option name="totallyTimeSpent" value="6741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -378,7 +344,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -390,7 +356,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.23709677" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38548386" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -537,8 +503,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-ms-movie/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="112">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
