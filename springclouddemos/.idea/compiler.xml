@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-discovery" />
+        <module name="spring-cloud-ms-movie" />
+        <module name="spring-cloud-ms-user" />
+        <module name="spring-cloud-ribbon" />
+        <module name="springclouddemos" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

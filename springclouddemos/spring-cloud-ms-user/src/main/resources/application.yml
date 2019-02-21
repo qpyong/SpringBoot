@@ -1,0 +1,29 @@
+server:
+  port: 8771
+spring:
+  application:
+    name: ms-user
+  datasource:
+    username: root
+    password: mysql.123
+    url: jdbc:mysql://106.75.143.161:3306/qpydemos
+  jpa:
+    database: mysql
+---
+spring:
+  profiles:server0
+eureka:
+  client:
+    service-url:
+      #这里建议要配置相应的eureka server对应的服务地址
+      defaultZone: http://admin:admin@localhost:8760/eureka
+---
+eureka:
+  client:
+    service-url:
+      #这里建议要配置相应的eureka server对应的服务地址
+      defaultZone: http://admin:admin@localhost:8761/eureka,http://admin:admin@localhost:8762/eureka
+spring:
+  profiles: server1
+
+

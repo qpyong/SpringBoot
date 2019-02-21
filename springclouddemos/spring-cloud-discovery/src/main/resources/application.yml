@@ -1,0 +1,48 @@
+
+#这里没有指定profiles的部分为公共部分
+spring:
+  application:
+    name: discovery
+security:
+  user:
+    name: admin
+    password: admin
+  basic:
+    enabled: true
+---
+#一台server
+spring:
+  profiles:server
+server:
+  port: 8760
+eureka:
+  client:
+    service-url:
+      #当前应用向端口为8760的服务进行注册
+      defaultZone: http://localhost:8760/eureka
+    register-with-eureka: false
+---
+#以下为两台（server1&server2）互相注册的高可用部署
+spring:
+  #指定当前配置profiles=replicate-server1
+  profiles: servers1
+server:
+  #当profiles=server1时，应用的端口为8761
+  port: 8761
+eureka:
+  client:
+    service-url:
+      #当前应用向端口为8762的服务进行注册
+      defaultZone: http://localhost:8762/eureka
+---
+spring:
+  #指定当前配置profiles=replicate-server2
+  profiles: servers2
+server:
+  #当profiles=server1时，应用的端口为8762
+  port: 8762
+eureka:
+  client:
+    service-url:
+      #当前应用向端口为8761的服务进行注册
+      defaultZone: http://localhost:8761/eureka

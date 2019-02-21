@@ -1,0 +1,27 @@
+server:
+  port: 8772
+spring:
+  application:
+    name: ms-movie
+  datasource:
+    url: jdbc:mysql://106.75.143.161:3306/qpydemos
+    username: root
+    password: mysql.123
+  jpa:
+    database: mysql
+---
+#当启用server0时，连接的是单体注册中心
+spring:
+  profiles: server0
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@localhost:8760/eureka
+---
+spring:
+  profiles: server1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@localhost:8761/eureka
+
