@@ -12,6 +12,7 @@
     <artifactId>spring-cloud-ms-user</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-cloud-ms-user</name>
+    <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>

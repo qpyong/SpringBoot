@@ -96,6 +96,9 @@ public class SpringCloudMsUserApplication {
 
 
     @Bean
+    /**
+     * 负载均衡Ribbon的启用
+     */
     @LoadBalanced
     public RestTemplate restTemplate() {
         return new RestTemplate();

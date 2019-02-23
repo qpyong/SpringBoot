@@ -12,6 +12,7 @@
     <artifactId>spring-cloud-ms-movie</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-cloud-ms-movie</name>
+    <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>

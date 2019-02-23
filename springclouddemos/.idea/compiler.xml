@@ -10,7 +10,6 @@
         <module name="spring-cloud-ms-movie" />
         <module name="spring-cloud-ms-user" />
         <module name="spring-cloud-ribbon" />
-        <module name="springclouddemos" />
       </profile>
     </annotationProcessing>
   </component>
