@@ -6,17 +6,17 @@ spring:
   jpa:
     database: mysql
 ---
-#µ±ÆôÓÃserver{x}Ê±£¬Á¬½ÓµÄÊÇµ¥Ìå×¢²áÖĞĞÄ¡£ÓÃÓÚ±¾µØ¿ª·¢²âÊÔ£¬×î¶à¿ÉÆô¶¯3Ì¨
+#å½“å¯ç”¨server{x}æ—¶ï¼Œè¿æ¥çš„æ˜¯å•ä½“æ³¨å†Œä¸­å¿ƒã€‚ç”¨äºæœ¬åœ°å¼€å‘æµ‹è¯•ï¼Œæœ€å¤šå¯å¯åŠ¨3å°
 server:
   port: 8780
 spring:
   profiles: server0
   application:
-    name: ms-user-${server.port}
+    name: ms-user
 eureka:
   client:
     service-url:
-      #ÕâÀï½¨ÒéÒªÅäÖÃÏàÓ¦µÄeureka server¶ÔÓ¦µÄ·şÎñµØÖ·
+      #è¿™é‡Œå»ºè®®è¦é…ç½®ç›¸åº”çš„eureka serverå¯¹åº”çš„æœåŠ¡åœ°å€
       defaultZone: http://admin:admin@localhost:8760/eureka
 ---
 server:
@@ -24,11 +24,11 @@ server:
 spring:
   profiles: server1
   application:
-    name: ms-user-${server.port}
+    name: ms-user
 eureka:
   client:
     service-url:
-      #ÕâÀï½¨ÒéÒªÅäÖÃÏàÓ¦µÄeureka server¶ÔÓ¦µÄ·şÎñµØÖ·
+      #è¿™é‡Œå»ºè®®è¦é…ç½®ç›¸åº”çš„eureka serverå¯¹åº”çš„æœåŠ¡åœ°å€
       defaultZone: http://admin:admin@localhost:8760/eureka
 ---
 server:
@@ -36,48 +36,48 @@ server:
 spring:
   profiles: server2
   application:
-    name: ms-user-${server.port}
+    name: ms-user
 eureka:
   client:
     service-url:
-      #ÕâÀï½¨ÒéÒªÅäÖÃÏàÓ¦µÄeureka server¶ÔÓ¦µÄ·şÎñµØÖ·
+      #è¿™é‡Œå»ºè®®è¦é…ç½®ç›¸åº”çš„eureka serverå¯¹åº”çš„æœåŠ¡åœ°å€
       defaultZone: http://admin:admin@localhost:8760/eureka
 ---
-#µ±ÆôÓÃservers{x}Ê±£¬Á¬½ÓµÄÊÇµ¥Ìå×¢²áÖĞĞÄ¡£ÓÃÓÚ±¾µØ¿ª·¢²âÊÔ£¬×î¶à¿ÉÆô¶¯3Ì¨
+#å½“å¯ç”¨servers{x}æ—¶ï¼Œè¿æ¥çš„æ˜¯å•ä½“æ³¨å†Œä¸­å¿ƒã€‚ç”¨äºæœ¬åœ°å¼€å‘æµ‹è¯•ï¼Œæœ€å¤šå¯å¯åŠ¨3å°
 eureka:
   client:
     service-url:
-      #ÕâÀï½¨ÒéÒªÅäÖÃÏàÓ¦µÄeureka server¶ÔÓ¦µÄ·şÎñµØÖ·
+      #è¿™é‡Œå»ºè®®è¦é…ç½®ç›¸åº”çš„eureka serverå¯¹åº”çš„æœåŠ¡åœ°å€
       defaultZone: http://admin:admin@localhost:8761/eureka,http://admin:admin@localhost:8762/eureka
 server:
   port: 8785
 spring:
   profiles: servers1
   application:
-    name: ms-user-${server.port}
+    name: ms-users
 ---
 eureka:
   client:
     service-url:
-      #ÕâÀï½¨ÒéÒªÅäÖÃÏàÓ¦µÄeureka server¶ÔÓ¦µÄ·şÎñµØÖ·
+      #è¿™é‡Œå»ºè®®è¦é…ç½®ç›¸åº”çš„eureka serverå¯¹åº”çš„æœåŠ¡åœ°å€
       defaultZone: http://admin:admin@localhost:8761/eureka,http://admin:admin@localhost:8762/eureka
 server:
   port: 8786
 spring:
   profiles: servers6
   application:
-    name: ms-user-${server.port}
+    name: ms-users
 ---
 eureka:
   client:
     service-url:
-      #ÕâÀï½¨ÒéÒªÅäÖÃÏàÓ¦µÄeureka server¶ÔÓ¦µÄ·şÎñµØÖ·
+      #è¿™é‡Œå»ºè®®è¦é…ç½®ç›¸åº”çš„eureka serverå¯¹åº”çš„æœåŠ¡åœ°å€
       defaultZone: http://admin:admin@localhost:8761/eureka,http://admin:admin@localhost:8762/eureka
 server:
   port: 8787
 spring:
   profiles: servers7
   application:
-    name: ms-user-${server.port}
+    name: ms-users
 
 

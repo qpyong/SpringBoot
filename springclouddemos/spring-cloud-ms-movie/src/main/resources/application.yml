@@ -6,11 +6,11 @@ spring:
   jpa:
     database: mysql
 ---
-#µ±ÆôÓÃserver{x}Ê±£¬Á¬½ÓµÄÊÇµ¥Ìå×¢²áÖĞĞÄ¡£ÓÃÓÚ±¾µØ¿ª·¢²âÊÔ£¬×î¶à¿ÉÆô¶¯3Ì¨
+#å½“å¯ç”¨server{x}æ—¶ï¼Œè¿æ¥çš„æ˜¯å•ä½“æ³¨å†Œä¸­å¿ƒã€‚ç”¨äºæœ¬åœ°å¼€å‘æµ‹è¯•ï¼Œæœ€å¤šå¯å¯åŠ¨3å°
 spring:
   profiles: server0
   application:
-    name: ms-movie-${server.port}
+    name: ms-movie
 server:
   port: 8770
 eureka:
@@ -21,7 +21,7 @@ eureka:
 spring:
   profiles: server1
   application:
-    name: ms-movie-${server.port}
+    name: ms-movie
 server:
   port: 8771
 eureka:
@@ -32,7 +32,7 @@ eureka:
 spring:
   profiles: server2
   application:
-    name: ms-movie-${server.port}
+    name: ms-movie
 server:
   port: 8772
 eureka:
@@ -40,11 +40,11 @@ eureka:
     service-url:
       defaultZone: http://admin:admin@localhost:8760/eureka
 ---
-#µ±ÆôÓÃservers{x}Ê±£¬Á¬½ÓµÄÊÇ¸ß¿ÉÓÃ×¢²áÖĞĞÄ¡£ÓÃÓÚ±¾µØ¿ª·¢²âÊÔ£¬×î¶à¿ÉÆô¶¯3Ì¨
+#å½“å¯ç”¨servers{x}æ—¶ï¼Œè¿æ¥çš„æ˜¯é«˜å¯ç”¨æ³¨å†Œä¸­å¿ƒã€‚ç”¨äºæœ¬åœ°å¼€å‘æµ‹è¯•ï¼Œæœ€å¤šå¯å¯åŠ¨3å°
 spring:
   profiles: servers1
   application:
-    name: ms-movie-${server.port}
+    name: ms-movie
 server:
   port: 8773
 eureka:
@@ -55,7 +55,7 @@ eureka:
 spring:
   profiles: servers2
   application:
-    name: ms-movie-${server.port}
+    name: ms-movie
 server:
   port: 8774
 eureka:
@@ -66,7 +66,7 @@ eureka:
 spring:
   profiles: servers3
   application:
-    name: ms-movie-${server.port}
+    name: ms-movie
 server:
   port: 8775
 eureka:
