@@ -5,6 +5,8 @@ spring:
     password: mysql.123
   jpa:
     database: mysql
+logging:
+  level: debug
 ---
 #当启用server{x}时，连接的是单体注册中心。用于本地开发测试，最多可启动3台
 spring:

@@ -97,7 +97,14 @@ public class SpringCloudMsUserApplication {
 
     @Bean
     /**
-     * 负载均衡Ribbon的启用
+     * 负载均衡Ribbon的启用。
+     * <p>使用方式:
+     * <ol>
+     *     <li>启动两个movie服务，分别指定spring.profiles.active=server1及server2</li>
+     *     <li>启动user服务，指定spring.profiles.active=server0</li>
+     *     <li>请求user服务的api：http://localhost:8780/user/movies/2</li>
+     *     <li>观察movie服务的日志输出</li>
+     * </ol>
      */
     @LoadBalanced
     public RestTemplate restTemplate() {
