@@ -1,5 +1,6 @@
 
 #这里没有指定profiles的部分为公共部分
+#这里的安全认证信息需要添加spring-boot-starter-security依赖才生效
 spring:
   application:
     name: discovery-eureka
@@ -9,6 +10,8 @@ security:
     password: admin
   basic:
     enabled: true
+
+#这里用---进行分段配置，每一段需指定一个profiles
 ---
 #一台server
 spring:
@@ -18,8 +21,9 @@ server:
 eureka:
   client:
     service-url:
-      #当前应用向端口为8760的服务进行注册
-      defaultZone: http://localhost:8760/eureka
+      #当前应用与eureka服务的交互(查询或注册服务)地址
+      defaultZone: http://localhost:8760/discovery-eureka
+    #是否将自己注册到eureka服务上，这里本身就是server，所以为false
     register-with-eureka: false
   server:
     enable-self-preservation: false
@@ -35,7 +39,7 @@ eureka:
   client:
     service-url:
       #当前应用向端口为8762的服务进行注册
-      defaultZone: http://localhost:8762/eureka
+      defaultZone: http://localhost:8762/discovery-eureka
 ---
 spring:
   #指定当前配置profiles=servers2
@@ -47,4 +51,4 @@ eureka:
   client:
     service-url:
       #当前应用向端口为8761的服务进行注册
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://localhost:8761/discovery-eureka

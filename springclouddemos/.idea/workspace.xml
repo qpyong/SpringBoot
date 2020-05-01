@@ -2,34 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcbe7f85-efcf-451a-8102-08724f0d74ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/SpringBoot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/springclouddemos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-discovery/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-discovery-eureka/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-discovery/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-discovery-eureka/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-discovery/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-discovery-eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-discovery/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-discovery-eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-discovery/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-discovery-eureka/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-discovery/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-discovery-eureka/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-discovery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-discovery-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-discovery/src/main/java/org/qpyong/demos/springcloud/discovery/SpringCloudDiscoveryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-discovery-eureka/src/main/java/org/qpyong/demos/springcloud/discovery/SpringCloudDiscoveryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-discovery/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-discovery-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-discovery/src/test/java/org/qpyong/demos/springcloud/discovery/SpringCloudDiscoveryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-discovery-eureka/src/test/java/org/qpyong/demos/springcloud/discovery/SpringCloudDiscoveryApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-ms-user/src/main/java/org/qpyong/demos/springcloud/ms/user/SpringCloudMsUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-ms-user/src/main/java/org/qpyong/demos/springcloud/ms/user/SpringCloudMsUserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-ribbon/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-ribbon/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-ribbon/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-ribbon/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-ribbon/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-ribbon/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-ribbon/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-ribbon/src/main/java/org/qpyong/demos/springcloud/ribbon/SpringCloudRibbonApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-ribbon/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-ribbon/src/test/java/org/qpyong/demos/springcloud/ribbon/SpringCloudRibbonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-discovery-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-discovery-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-discovery-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-discovery-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-ms-movie/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-ms-movie/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +93,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29411766" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -126,11 +104,14 @@
       <recent name="D:\workspace\git\springboot\springclouddemos\spring-cloud-ms-user\src\main\java\org\qpyong\demos\springcloud\ms\user" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpringCloudDiscoveryApplication">
-    <configuration name="SpringCloudDiscoveryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.SpringCloudMsMovieApplication">
+    <configuration name="SpringCloudDiscoveryApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.qpyong.demos.springcloud.discovery.SpringCloudDiscoveryApplication" />
       <module name="spring-cloud-discovery-eureka" />
-      <option name="VM_PARAMETERS" value="spring.profile.active=server" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=GBK -Dspring.profiles.active=server " />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spring-cloud-discovery-eureka" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.qpyong.demos.springcloud.discovery.*" />
@@ -141,95 +122,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="spring-cloud-discovery-eureka" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="spring-cloud-discovery-eureka" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringCloudDiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-cloud-discovery" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.qpyong.demos.springcloud.discovery.SpringCloudDiscoveryApplication" />
-      <option name="ACTIVE_PROFILES" value="server" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringCloudMsMovieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="SpringCloudMsMovieApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.qpyong.demos.springcloud.ms.movie.SpringCloudMsMovieApplication" />
       <module name="spring-cloud-ms-movie" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.qpyong.demos.springcloud.ms.movie.SpringCloudMsMovieApplication" />
-      <option name="ACTIVE_PROFILES" value="server0" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringCloudMsUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-cloud-ms-user" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.qpyong.demos.springcloud.ms.user.SpringCloudMsUserApplication" />
-      <option name="ACTIVE_PROFILES" value="server0" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringCloudRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-cloud-ribbon" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.qpyong.demos.springcloud.ribbon.SpringCloudRibbonApplication" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=server0" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spring-cloud-ms-movie" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.SpringCloudDiscoveryApplication" />
+      <item itemvalue="Application.SpringCloudMsMovieApplication" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.SpringCloudDiscoveryApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -295,62 +202,74 @@
     <option name="LAST_COMMIT_MESSAGE" value="Spring Cloud整合ribbon" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="94" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588302015345">
+    <state x="94" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588328857350">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="94" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1588302015345" />
+    <state x="94" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1588328857350" />
+    <state x="369" y="168" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588327325614">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="369" y="168" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.760@0.0.1280.760" timestamp="1588327325614" />
     <state x="409" y="138" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1588303220958">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="409" y="138" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.760@0.0.1280.760" timestamp="1588303220958" />
-    <state x="382" y="163" key="FileChooserDialogImpl" timestamp="1588303479508">
+    <state x="382" y="163" key="FileChooserDialogImpl" timestamp="1588327594216">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="382" y="163" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1588303479508" />
-    <state width="1236" height="184" key="GridCell.Tab.0.bottom" timestamp="1588308093369">
+    <state x="382" y="163" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1588327594216" />
+    <state width="1236" height="255" key="GridCell.Tab.0.bottom" timestamp="1588332842486">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1236" height="184" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1588308093369" />
-    <state width="1236" height="184" key="GridCell.Tab.0.center" timestamp="1588308093368">
+    <state width="1236" height="255" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1588332842486" />
+    <state width="1236" height="255" key="GridCell.Tab.0.center" timestamp="1588332842486">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1236" height="184" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1588308093368" />
-    <state width="1236" height="184" key="GridCell.Tab.0.left" timestamp="1588308093367">
+    <state width="1236" height="255" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1588332842486" />
+    <state width="1236" height="255" key="GridCell.Tab.0.left" timestamp="1588332842485">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1236" height="184" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1588308093367" />
-    <state width="1236" height="184" key="GridCell.Tab.0.right" timestamp="1588308093368">
+    <state width="1236" height="255" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1588332842485" />
+    <state width="1236" height="255" key="GridCell.Tab.0.right" timestamp="1588332842486">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1236" height="184" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1588308093368" />
-    <state width="1236" height="255" key="GridCell.Tab.1.bottom" timestamp="1588307798598">
+    <state width="1236" height="255" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1588332842486" />
+    <state width="1236" height="255" key="GridCell.Tab.1.bottom" timestamp="1588332842487">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1236" height="255" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1588307798598" />
-    <state width="1236" height="255" key="GridCell.Tab.1.center" timestamp="1588307798598">
+    <state width="1236" height="255" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1588332842487" />
+    <state width="1236" height="255" key="GridCell.Tab.1.center" timestamp="1588332842486">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1236" height="255" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1588307798598" />
-    <state width="1236" height="255" key="GridCell.Tab.1.left" timestamp="1588307798598">
+    <state width="1236" height="255" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1588332842486" />
+    <state width="1236" height="255" key="GridCell.Tab.1.left" timestamp="1588332842486">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1236" height="255" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1588307798598" />
-    <state width="1236" height="255" key="GridCell.Tab.1.right" timestamp="1588307798598">
+    <state width="1236" height="255" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1588332842486" />
+    <state width="1236" height="255" key="GridCell.Tab.1.right" timestamp="1588332842487">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1236" height="255" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1588307798598" />
-    <state x="127" y="12" width="1105" height="738" key="SettingsEditor" timestamp="1588307617222">
+    <state width="1236" height="255" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1588332842487" />
+    <state x="170" y="37" key="Maven.ArtifactSearchDialog" timestamp="1588325849609">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="127" y="12" width="1105" height="738" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1588307617222" />
+    <state x="170" y="37" key="Maven.ArtifactSearchDialog/0.0.1280.760@0.0.1280.760" timestamp="1588325849609" />
+    <state x="127" y="12" width="1105" height="738" key="SettingsEditor" timestamp="1588312984782">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="127" y="12" width="1105" height="738" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1588312984782" />
+    <state x="434" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588329724722">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="434" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.760@0.0.1280.760" timestamp="1588329724722" />
     <state x="10" y="83" key="new project wizard" timestamp="1588300931826">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="10" y="83" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1588300931826" />
-    <state x="296" y="165" key="run.anything.popup" timestamp="1587778013952">
+    <state x="296" y="165" key="run.anything.popup" timestamp="1588313307949">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="296" y="165" key="run.anything.popup/0.0.1280.760@0.0.1280.760" timestamp="1587778013952" />
+    <state x="296" y="165" key="run.anything.popup/0.0.1280.760@0.0.1280.760" timestamp="1588313307949" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -364,19 +283,6 @@
           <url>file://$PROJECT_DIR$/spring-cloud-ms-user/src/main/java/org/qpyong/demos/springcloud/ms/user/SpringCloudMsUserApplication.java</url>
           <line>53</line>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-cloud-discovery-eureka/src/main/java/org/qpyong/demos/springcloud/discovery/SpringCloudDiscoveryApplication.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/spring-cloud-discovery-eureka/src/main/java/org/qpyong/demos/springcloud/discovery/SpringCloudDiscoveryApplication.java</url>
-          <line>10</line>
-          <properties class="org.qpyong.demos.springcloud.discovery.SpringCloudDiscoveryApplication" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,7 +1,14 @@
-1-spring cloud之dicovery  eureka的使用
-1)启动单机eureka服务，指定参数spring.profile.active=server
-或者启动高可用eureka服务，指定第1台服务参数spring.profile.active=servers1
-以及指定第1台服务参数spring.profile.active=servers1servers2
+1.0.0-spring cloud之discovery  eureka的使用
+启动单机eureka服务，指定参数--spring.profiles.active=server，
+或者-Dspring.profiles.active=server
+啟動後，通過訪問該服務<ip>:<port>可訪問eureka服務的相關信息
+
+1.0.1-spring cloud之discovery  eureka的使用
+1)指定安全认证信息，如设置密码，客户端访问时，eureka服务地址需要指定账号，格式为：
+http://<usename>:<password>@<ip>:<port>/eureka
+
+2)启动高可用eureka服务，指定第1台服务参数spring.profiles.active=servers1
+以及指定第1台服务参数spring.profiles.active=servers2
 
 1.0.2-spring cloud之RestTemplate使用
 org.qpyong.demos.springcloud.ms.user.SpringCloudMsUserApplication
