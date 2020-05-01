@@ -100,6 +100,15 @@ public class SpringCloudMsUserApplication {
      * 负载均衡Ribbon的启用。
      * <p>使用方式:
      * <ol>
+     *      <li>在pom文件中增加ribbon依赖
+     *          <pre><code>
+     *          <dependency>
+     *             <groupId>org.springframework.cloud</groupId>
+     *             <artifactId>spring-cloud-starter-ribbon</artifactId>
+     *          </dependency>
+     *          </code></pre>
+     *      </li>
+     *     <li>在ms-user服务中的配置对象的RestTemplate restTemplate()方法上增加 @LoadBalanced注解</li>
      *     <li>启动两个movie服务，分别指定spring.profiles.active=server1及server2</li>
      *     <li>启动user服务，指定spring.profiles.active=server0</li>
      *     <li>请求user服务的api：http://localhost:8780/user/movies/2</li>

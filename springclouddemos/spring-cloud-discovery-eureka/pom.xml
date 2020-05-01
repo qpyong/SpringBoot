@@ -9,9 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.qpyong.demos</groupId>
-    <artifactId>spring-cloud-ribbon</artifactId>
+    <artifactId>spring-cloud-discovery-eureka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-cloud-ribbon</name>
+    <name>spring-cloud-discovery-eureka</name>
+    <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -22,7 +23,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
 
         <dependency>

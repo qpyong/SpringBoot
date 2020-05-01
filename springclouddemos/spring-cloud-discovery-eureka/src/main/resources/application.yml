@@ -2,7 +2,7 @@
 #这里没有指定profiles的部分为公共部分
 spring:
   application:
-    name: discovery
+    name: discovery-eureka
 security:
   user:
     name: admin

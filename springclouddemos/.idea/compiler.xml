@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-cloud-discovery" />
-        <module name="spring-cloud-ms-movie" />
         <module name="spring-cloud-ms-user" />
-        <module name="spring-cloud-ribbon" />
+        <module name="spring-cloud-ms-movie" />
+        <module name="spring-cloud-discovery-eureka" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-ms-zookeeper" target="1.8" />
+      <module name="spring-cloud-ribbon" target="1.8" />
+      <module name="spring-cloud-zookeeper" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
